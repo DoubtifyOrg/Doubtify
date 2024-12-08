@@ -10,8 +10,18 @@ import { useAuthContext } from "../hooks/UseAuthContext";
 function LoginForm() {
     const {dispatch} = useAuthContext()
     let navigate = useNavigate()
-
+// making new users which can be used to scale the project 
     const [user, setUser] = useState({
+        email: "",
+        password: ""
+    })
+// making new users which can be used to scale the project 
+    const [user1, setUser1] = useState({
+        email: "",
+        password: ""
+    })
+// making new users which can be used to scale the project 
+    const [user3, setUser3] = useState({
         email: "",
         password: ""
     })
