@@ -12,3 +12,12 @@ user_nickname:{type:String,required:true,unique:true}
 const users = connection.model('Users', userSchema);
 
 export default users
+
+//changing model
+//changing model
+//changing model
+//changing model
+//changing model
+//changing model
+//changing model
+//changing model
